@@ -3,12 +3,12 @@ from datetime import datetime
 import uuid
 
 st.set_page_config(
-    page_title="TravelTech B2B Support",
+    page_title="Sriggle B2B Tech Support",
     page_icon="🛠️",
     layout="centered"
 )
 
-st.title("🛠️ TravelTech B2B Support")
+st.title("🛠️ Sriggle B2B Tech Support")
 st.caption("24/7 AI-style technical support demo for travel platform partners")
 
 st.info(
@@ -157,7 +157,7 @@ if "messages" not in st.session_state:
     st.session_state.messages = [{
         "role": "assistant",
         "content": (
-            "Hi! I'm the TravelTech B2B Support Agent. Ask me about API errors, "
+            "Hi! I'm the Sriggle B2B Tech Support Agent. Ask me about API errors, "
             "login and access, booking configuration, webhook delays, or billing incidents."
         ),
         "source": None
